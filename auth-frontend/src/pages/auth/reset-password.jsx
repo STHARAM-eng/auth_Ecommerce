@@ -5,7 +5,7 @@ const ResetPage = () => {
   return (
     <>
       <div className="flex flex-col items-center gap-2 mt-10">
-        <h1 className="text-2xl font-bold mb-5">Forget Password</h1>
+        <h1 className="text-2xl font-bold mb-5">Reset Password</h1>
       </div>
       <form className="flex max-w-md flex-col gap-1 m-auto  ">
         <div>

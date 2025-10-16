@@ -22,14 +22,14 @@ createRoot(document.getElementById("root")).render(
         <Route element={<Layout />}>
           <Route index element={<App />} />
         </Route>
-        <Route element={<Authlayout />}>
+        <Route path="/auth" element={<Authlayout />}>
           <Route path="login" element={<LoginPage />} />
           <Route path="signup" element={<RegisterPage />} />
           <Route path="forget-password" element={<ForgetPage />} />
           <Route path="reset-password" element={<ResetPage />} />
           <Route path="verifyEmail" element={<EmailVerify />} />
         </Route>
-     <Route path="*" element={<PageNotfound />}/>
+        <Route path="*" element={<PageNotfound />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

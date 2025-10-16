@@ -4,10 +4,11 @@ import { CustomInput } from "../../components";
 const ForgetPage = () => {
   return (
     <>
+      <div className="md:w-[400px] w-full flex flex-col items-center gap-2 mt-10 m-auto py-5 shadow-lg shadow-indigo-500/50  ">
       <div className="flex flex-col items-center gap-2 mt-5">
         <h1 className="text-2xl font-bold mb-8">Forget Password</h1>
       </div>
-      <form className="flex max-w-md flex-col gap-1 m-auto ">
+     <form className="flex md:w-[400px] w-full flex-col gap-2 px-10">
         <div>
           <CustomInput
             label={"Your Email"}
@@ -24,6 +25,7 @@ const ForgetPage = () => {
           Submit
         </Button>
       </form>
+      </div>
     </>
   );
 };
